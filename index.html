@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./src/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="cardflip.css">
+
+    <title>Jokenpô</title>
+</head>
+
+<body>
+
+    <div class="game">
+        <div class="game-container">
+            <div class="game-area-player">
+                <div class="game-show">
+                    
+                    <div class="game-you-play">
+                        <span class="player-title">Você 🙋‍♂️</span>
+                        <div class="scene scene--card">
+                            <div class="card">
+                                <div class="card__face card__face--front">
+                                    <img src="./src/images/image card back.png" alt="card-front">
+                                </div>
+                                <div class="card__face card__face--back">back</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="game-versus">
+                        vs
+                    </div>
+                    <div class="game-cpu-play">
+                        <span class="player-title">CPU 🤖</span>
+                        <div class="scene scene--card">
+                            <div class="card">
+                                <div class="card__face card__face--front">
+                                    <img src="./src/images/image card back.png" alt="card-front">
+                                </div>
+                                <div class="card__face card__face--back">back</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="game-options">
+                    <img src="src/images/papel-removebg-preview.png" alt="Papel" />
+                    <img src="src/images/pedra-removebg-preview.png" alt="Pedra" />
+                    <img src="src/images/tesoura-removebg-preview.png" alt="Tesoura" />
+                </div>
+            </div>
+            <div class="game-score">
+                <h1>Placar</h1>
+                <span>Você 0 x 1 CPU</span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
