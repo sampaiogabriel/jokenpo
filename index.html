@@ -7,8 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="shortcut icon" href="./src/images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="cardflip.css">
+    <link rel="stylesheet" href="./src/styles/cardflip.css">
+    <link rel="stylesheet" href="./src/styles/title.css">
+    <link rel="stylesheet" href="./src/styles/styles.css">
 
     <title>Jokenpô</title>
 </head>
@@ -16,10 +17,11 @@
 <body>
 
     <div class="game">
+
         <div class="game-container">
             <div class="game-area-player">
                 <div class="game-show">
-                    
+
                     <div class="game-you-play">
                         <span class="player-title">Você 🙋‍♂️</span>
                         <div class="scene scene--card">
@@ -27,12 +29,12 @@
                                 <div class="card__face card__face--front">
                                     <img src="./src/images/image card back.png" alt="card-front">
                                 </div>
-                                <div class="card__face card__face--back">back</div>
+                                <div class="card__face card__face--back"><span>✊</span></div>
                             </div>
                         </div>
                     </div>
                     <div class="game-versus">
-                        vs
+                        <span>vs</span>
                     </div>
                     <div class="game-cpu-play">
                         <span class="player-title">CPU 🤖</span>
@@ -54,12 +56,26 @@
                 </div>
             </div>
             <div class="game-score">
+
+                <div class="game-title">
+                    <h1 class="game-title-h1">
+                        <span class="game-title-span">J</span>
+                        <span class="game-title-span">O</span>
+                        <span class="game-title-span">K</span>
+                        <span class="game-title-span">E</span>
+                        <span class="game-title-span">N</span>
+                        <span class="game-title-span">P</span>
+                        <span class="game-title-span">O</span>
+                        <span class="game-title-span">!</span>
+                    </h1>
+                </div>
+
                 <h1>Placar</h1>
                 <span>Você 0 x 1 CPU</span>
             </div>
         </div>
     </div>
-    <script src="script.js"></script>
+    <script src="./src/scripts/script.js"></script>
 </body>
 
 </html>
