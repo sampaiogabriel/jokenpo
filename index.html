@@ -25,34 +25,39 @@
                     <div class="game-you-play">
                         <span class="player-title">Você 🙋‍♂️</span>
                         <div class="scene scene--card">
-                            <div class="card">
+                            <div class="card card-you">
                                 <div class="card__face card__face--front">
                                     <img src="./src/images/image card back.png" alt="card-front">
                                 </div>
-                                <div class="card__face card__face--back"><span>✊</span></div>
+                                <div class="card__face card__face--back" id="game_you_card_face_back">
+                                    <span id="game-you-move"></span>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="game-versus">
                         <span>vs</span>
+                        <span class="score_info" id="score_info"></span>
                     </div>
                     <div class="game-cpu-play">
                         <span class="player-title">CPU 🤖</span>
                         <div class="scene scene--card">
-                            <div class="card">
+                            <div class="card card-cpu">
                                 <div class="card__face card__face--front">
                                     <img src="./src/images/image card back.png" alt="card-front">
                                 </div>
-                                <div class="card__face card__face--back">back</div>
+                                <div class="card__face card__face--back" id="game_cpu_card_face_back">
+                                    <span id="game-cpu-move"></span>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="game-options">
-                    <img src="src/images/papel-removebg-preview.png" alt="Papel" />
-                    <img src="src/images/pedra-removebg-preview.png" alt="Pedra" />
-                    <img src="src/images/tesoura-removebg-preview.png" alt="Tesoura" />
+                    <img src="src/images/paper.png" alt="Papel" id="papel" />
+                    <img src="src/images/rock.png" alt="Pedra" id="pedra"/>
+                    <img src="src/images/scissors.png" alt="Tesoura" id="tesoura"/>
                 </div>
             </div>
             <div class="game-score">
@@ -71,7 +76,8 @@
                 </div>
 
                 <h1>Placar</h1>
-                <span>Você 0 x 1 CPU</span>
+                <span>Você <span id="score_you">0</span> x <span id="score_cpu">0</span> CPU</span>
+                
             </div>
         </div>
     </div>

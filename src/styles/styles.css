@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
 
-root{
-    --pedra-cor-background: #DECCDD;
-    --papel-cor-background: #FFDE53;
-    --tesoura-cor-background: #7FCEDA;
-}
-
 *{
     margin: 0;
     padding: 0;
@@ -16,15 +10,15 @@ root{
 }
 
 .background-pedra{
-    background-color: var(--pedra-cor-background);
+    background-color: #F15481;
 }
 
 .background-papel{
-    background-color: var(--papel-cor-background);
+    background-color: #FFDE53;
 }
 
 .background-tesoura{
-    background-color: var(--tesoura-cor-background);
+    background-color: #7FCEDA;
 }
 
 .game{
@@ -99,6 +93,14 @@ root{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.score_info{
+    width: 100px;
+    height: 100px;
+
+    font-size: 20px;
+    word-wrap: break-word;
 }
 
 .game-you-play{

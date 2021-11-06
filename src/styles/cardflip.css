@@ -7,7 +7,6 @@
 
   border-radius: 5px;
   border: 4px solid;
-  /* border-image: linear-gradient(227.91deg, #106AF2 0%, #00e0ff 100%); */
 
   margin: 50px;
 }
@@ -56,4 +55,12 @@
 
 .card__face--back span{
   font-size: 100px;
+}
+
+#game-you-move{
+  background: none;
+}
+
+#game-cpu-move{
+  background: none;
 }
